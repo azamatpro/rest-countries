@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer type="module" src="src/js/controller.js"></script>
+  </head>
+  <body class="light">
+    <header class="header">
+      <h3 class="header__title cl-fonts">Where in the world?</h3>
+      <div class="header__moon">
+        <img src="src/images/Group 3.png" alt="moon" />
+        <p class="cl-fonts">Dark mode</p>
+      </div>
+    </header>
+
+    <div class="country-detail hidden">
+      <button class="btn back-btn cl-fonts">&LeftArrow; &nbsp; Back</button>
+      <div class="country-detail-inner">
+        <!-- <div class="country-detail-imgbox">
+          <img class="country-detail-imgbox__img" src="/images/uzb_flag.png" alt="Country flag" />
+        </div>
+        <div class="country-detail-content">
+          <h3 class="country__name" style="margin-bottom:2rem;">Uzbekistan</h3>
+          <div class="country-detail__data">
+            <div class="country-detail__data--row">
+              <p class="country__row"><span>Native name:</span>O'zbekiston</p>
+              <p class="country__row"><span>Population:</span>44 675 800</p>
+              <p class="country__row"><span>Region:</span>Asia</p>
+              <p class="country__row"><span>Sub Region:</span>Central Asia</p>
+              <p class="country__row"><span>Capital:</span>Tashkent</p>
+            </div>
+            <div class="country-detail__data--row" style="margin-right:2rem ;">
+              <p class="country__row"><span>Top Level Domain:</span>.be</p>
+              <p class="country__row"><span>Currencies:</span>Sum</p>
+              <p class="country__row"><span>Languages:</span>Uzbek,Russian</p>
+            </div>
+          </div>
+          <div class="country-detail-borders">
+            <p class="country__row"><span>Border Countries:</span></p>
+            <button class="btn country-detail-border-btn">Afganistan</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="container">
+      <div class="navigation">
+        <form class="form__group cl-fonts">
+          <button type="button" class="navigation__btn">
+            <img
+              class="navigation__form-img"
+              src="src/images/search.png"
+              alt=""
+            />
+          </button>
+          <input
+            class="search-input"
+            type="text"
+            placeholder=" Search for country"
+          />
+        </form>
+
+        <select class="navigation__select cl-fonts">
+          <option class="navigation__option" value="" disabled selected hidden>
+            Filter by region
+          </option>
+          <option class="navigation__option" value="Africa">Afrika</option>
+          <option class="navigation__option" value="Americas">Americas</option>
+          <option class="navigation__option" value="Asia">Asia</option>
+          <option class="navigation__option" value="Europe">Europe</option>
+          <option class="navigation__option" value="Oceania">Oceania</option>
+          <option class="navigation__option" value="all">All</option>
+        </select>
+      </div>
+      <div class="countries">
+        <!-- <a class="country" href="#23456">
+          <img class="country__img" src="" />
+          <div class="country__data">
+            <h3 class="country__name">Uzbekistan</h3>
+            <p class="country__row"><span>Population:</span>44 675 800</p>
+            <p class="country__row"><span>Region:</span>Asia</p>
+            <p class="country__row"><span>Capital:</span>Tashkent</p>
+          </div>
+        </a> -->
+      </div>
+    </div>
+  </body>
+</html>

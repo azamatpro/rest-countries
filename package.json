@@ -1,0 +1,17 @@
+{
+  "name": "rest-countries-api-with-color-theme-switcher-figma",
+  "version": "1.0.0",
+  "description": "Using this design file will help you practice building projects in the same way professionals do. Seeing the details in the design will help you improve your accuracy when building projects and build projects faster.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass src/sass/main.scss src/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

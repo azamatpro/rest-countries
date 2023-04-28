@@ -1,0 +1,49 @@
+.hidden {
+  display: none !important;
+}
+.no-borders {
+  display: block !important;
+  margin-top: 2px;
+  padding-left: 4rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: orangered;
+}
+
+// Variables
+/* Colors */
+$color-white: #fff;
+$color-light: #f2f2f2;
+$color-dark-1: #2b3844;
+$color-dark-2: #202c36;
+$color-black: #111517;
+
+.light {
+  background-color: $color-light;
+  .header,
+  .form__group,
+  .search-input,
+  .navigation__select,
+  .btn,
+  .country {
+    background-color: $color-white;
+  }
+  .cl-fonts {
+    color: $color-black;
+  }
+}
+
+.dark {
+  background-color: $color-dark-2;
+  .header,
+  .form__group,
+  .search-input,
+  .navigation__select,
+  .btn,
+  .country {
+    background-color: $color-dark-1;
+  }
+  .cl-fonts {
+    color: $color-white;
+  }
+}
